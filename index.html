@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
 
@@ -9,18 +9,22 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Ukrainian Embroidery</title>
+
+    <title>Українська вишивка</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/business-casual.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/bootstrap-lightbox.css" rel="stylesheet">
 
     <!-- Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -60,7 +64,7 @@
                         <a href="about.html">Про нас</a>
                     </li>
                     <li>
-                        <a href="blog.html">Різноманіття вишивки</a>
+                        <a href="styles.html">Різноманіття вишивки</a>
                     </li>
                     <li>
                         <a href="contact.html">Контакти</a>
@@ -149,12 +153,58 @@
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center">Beautiful boxes
-                        <strong>to showcase your content</strong>
+                    <h2 class="intro-text text-center">Вишиванка
+                        <strong>світовий тренд</strong>
                     </h2>
                     <hr>
-                    <p>Use as many boxes as you like, and put anything you want in them! They are great for just about anything, the sky's the limit!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+
+
+
+
+
+
+
+
+    <div class="col-xs-6 col-sm-3">
+        <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+            <img src="img/adel.jpg" alt="...">
+        </a>
+    </div>
+    <div class="col-xs-6 col-sm-3">
+        <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+            <img src="img/lana.jpg" alt="...">
+        </a>
+    </div>
+    <div class="col-xs-6 col-sm-3">
+        <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+            <img src="img/hayden.jpg" alt="...">
+        </a>
+    </div>
+    <div class="col-xs-6 col-sm-3">
+        <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+            <img src="img/nicole.jpg" alt="...">
+        </a>
+    </div>
+</div>
+
+<div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true">×</button>
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="" alt="" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+                    <p>Українці завжди пишалися своїм вишитим одягом, вигадливі візерунки якого несли в собі глибокий зміст. А в світлі останніх політичних подій на вишиванку по-іншому подивився цілий світ. Подивився і… закохався! Тож тепер наші національні мотиви чітко прослідковуються в колекціях відомих модельєрів.</p>
+                    <p>Ну як, переконалися, що українська вишиванка – це модно? Тоді швидше одягайте цю чудову річ і тіште своїм виглядом оточуючих! А якщо ви тільки плануєте розпочати роботу над нею, то обирайте візерунок до смаку і приступайте, щоб до літа встигнути пошити обновку!</p>
                 </div>
             </div>
         </div>
@@ -187,7 +237,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
+    <script src="js/bootstrap-lightbox.js"></script>
     <!-- Script to Activate the Carousel -->
     <script>
     $('.carousel').carousel({
